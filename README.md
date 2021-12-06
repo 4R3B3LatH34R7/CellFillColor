@@ -72,7 +72,7 @@ In Office365, this UDF will just spill the results over if Ctrl+Shift+Enter was 
 
 ## Releases
 Release the UDF in 3 forms as first release on 06DEC2021 16:30 Myanmar Standard Time.
-1. [UDF as function as copyable text](https://github.com/4R3B3LatH34R7/CellFillColor#the-vba-udf-code)
+1. [UDF as copyable text](https://github.com/4R3B3LatH34R7/CellFillColor#the-vba-udf-code)
 2. [.bas module](https://github.com/4R3B3LatH34R7/CellFillColor/releases/download/v1.0a-Pre-Release/mod_CellFillColor.bas)
 3. [.xlsm file](https://github.com/4R3B3LatH34R7/CellFillColor/releases/download/v1.0a-Pre-Release/CellFillcolor.xlsm)
 
