@@ -24,12 +24,12 @@ For that I just loop through the range and use the above workaround and store th
 ````VBA
 Option Explicit
 
-Function CellFillColor(target As Range, Optional returnFormat As String = "IDX") As Variant
+Public Function CellFillColor(target As Range, Optional returnFormat As String = "IDX") As Variant
 Dim retArray()
 Dim rowCounter As Long
 Dim colCounter As Long
 Dim colorValue As Long
-    Application.Volatile
+'    Application.Volatile
     If TypeName(target) = "Range" Then
         ReDim retArray(target.Rows.Count - 1, target.Columns.Count - 1)
         For rowCounter = 0 To target.Rows.Count - 1
@@ -52,13 +52,16 @@ Dim colorValue As Long
                 End Select
             Next colCounter
         Next rowCounter
-        CellFillColor = retArray
+        CellFillColor = retArray 'IIf(target.CountLarge = 1, retArray(0, 0), retArray)
     End If
 End Function
 
 Private Function useDF(ByVal target As Range) As Variant
     useDF = target.DisplayFormat.Interior.Color
 End Function
+
+'in Immediate Window
+'Range("G16").Interior.Color=13551615<-IDX value
 ````
 The code above can be copied and pasted in a VBA code module and use as =CellFillColor(A1).\
 There are 3 switches as arguments which will change the way the UDF returns the Fill color value of the cell. We can call the UDF as =CellFillColor(A1,returnFormat) with the following 3 possible values for returnFormat argument.\
