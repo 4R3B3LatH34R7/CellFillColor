@@ -1,4 +1,4 @@
-# getFillColor
+# CellFillColor
 MS Excel UDF to get Cell fill color
 
 ## Background
