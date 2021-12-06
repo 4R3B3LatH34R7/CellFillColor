@@ -14,7 +14,7 @@ The second obstacle was that the Fill color of the cells in question are the res
 Now this raises the bar to Range.DisplayFormat.Interior.Color OR Range.Cells.DisplayFormat.Interior.Color as per your preferences.
 
 The next hurdle was that DisplayFormat if called from a UDF returned a #VALUE error.\
-However, Jaafar Tribak's post at https://www.mrexcel.com/board/threads/using-displayformat-in-a-udf.1154593/ provided a workaround to this problem by the use of Evaluate function.\
+However, Jaafar Tribak's post at [MRExcel Forum](https://www.mrexcel.com/board/threads/using-displayformat-in-a-udf.1154593/) provided a workaround to this problem by the use of Evaluate function.\
 Now I got the UDF going.
 
 The last hurdle was trying to make the UDF compatible with multiple cell input and array output.\
