@@ -79,5 +79,9 @@ Release the UDF in 3 forms as first release on 06DEC2021 16:30 Myanmar Standard 
 2. [.bas module](https://github.com/4R3B3LatH34R7/CellFillColor/releases/download/v1.0a-Pre-Release/mod_CellFillColor.bas)
 3. [.xlsm file](https://github.com/4R3B3LatH34R7/CellFillColor/releases/download/v1.0a-Pre-Release/CellFillcolor.xlsm)
 
-## Future
+## Discussions
+Users can discuss issues or anything else with me [here](https://github.com/4R3B3LatH34R7/CellFillColor/discussions/1).\
+Any usage/usage experience/bugs/benefits that users found are welcome to discuss with me and others too.
+
+## The Future
 Will try to fix bugs but for this, I am going to need the users feedback. Thank you.
