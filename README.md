@@ -90,7 +90,7 @@ Will try to fix bugs but for this, I am going to need the users feedback. Thank 
 ## License
 I don't actually like/want/wish to apply CC BY-SA license to what I share, really!\
 However, there exists some jerks in this world who thought it's ok to derive my work without proper accreditation.\
-I don't care much for fame nor finance but all I want is a little credit for the many hours of my limited life I spent on a project.\
+I don't care much for fame or finance but a little credit for the many hours of my limited life I spent on a project.\
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
