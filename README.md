@@ -8,7 +8,7 @@ At first, I thought it was as easy as returning the output of Range.Interior.Col
 But it was more complicated than that as I found out.
 
 First obstacle was the cells in question are part of a Pivot Table which was overcome by turning off the File->Options->Formulas->Use GetPivotData functions for Pivot table references.\
-My Excel version is 2010 so YMMV.\
+My Excel version is 2010 so YMMV.
 
 The second obstacle was that the Fill color of the cells in question are the result of a conditional formatting.\
 Now this raises the bar to Range.DisplayFormat.Interior.Color OR Range.Cells.DisplayFormat.Interior.Color as per your preferences.
