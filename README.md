@@ -64,7 +64,7 @@ End Function
 'Range("G16").Interior.Color=13551615<-IDX value
 ````
 The code above can be copied and pasted in a VBA code module and use as =CellFillColor(A1).\
-There are 3 switches as arguments which will change the way the UDF returns the Fill color value of the cell. We can call the UDF as =CellFillColor(A1,returnFormat) eg. =CellFillColor(A1,"RGB") etc. with the following 3 possible values for returnFormat argument.\
+There are 3 switches as arguments which will change the way the UDF returns the Fill color value of the cell. We can call the UDF as =CellFillColor(A1,returnFormat) eg. =CellFillColor(A1,"RGB") etc. with the following 3 possible values for returnFormat argument.
 1. "IDX" - default value and if set, the return will be a VBA color value.
 2. "HEX" - a hexadecimal value in #FFFFFF format which can be used to change the color value from Excel UI in later versions of Excel. In Excel 2010, Hex input box is not found.
 3. "RGB" - returns RGB values as (RED,GREEN,BLUE) for example as (255,102,133) etc. which can be used to change color of a cell using the Fill Color->More Colors->RGB.
